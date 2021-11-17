@@ -23,7 +23,7 @@ body{
 	width: 100%;
 	display: block;
 	min-height: 100vh;
-	background-color: #261f5f;
+	background-color: #171622;
 	padding: 100px 0;
 }
 
@@ -41,13 +41,15 @@ body{
 	text-transform: uppercase;
 	font-size: 18px;
 	border-bottom: 2px solid transparent;
+	padding: 5px 0;
+	border-top: 2px solid transparent;
 	cursor: pointer;
 	line-height: 1.2;
 	transition: all 0.3s ease;
 }
 .gallery-filter .filter-item.active{
-	color: green;
-	border-color: green;
+	color: rgb(194, 135, 26);
+	border-color: rgb(194, 135, 26);
 }
 /* 
 .gallery-item-section{
